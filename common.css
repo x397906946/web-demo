@@ -1,0 +1,41 @@
+ /* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+
+/* common */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.button {
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(241, 69, 69);
+    padding: 8px 16px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.button:hover {
+  opacity: 1;
+}
+.layout {
+  min-width: 700px;
+  margin: 0 auto;
+}
+body {
+  font: 14px/1.5 Arial;
+  background: #fff;
+  color: #444;
+}
