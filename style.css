@@ -177,7 +177,7 @@ section > p {
   left: calc(50% - 3px);
   top: 145px;
   display: inline-block;
-  height: 150px;
+  height: 280px;
   width: 6px;
   background: lightblue;
 }
@@ -207,13 +207,13 @@ section > p {
 #contact .left {
   float: left;
   margin-left: calc(50% - 315px);
-  margin-bottom: 30px;
 }
 #contact .left ul > li {
   width: 300px;
+  height: 80px;
 }
 #contact .left input {
-  margin: 10px auto;
+  margin-top: 20px;
   width: 100%;
   padding: 20px;
   border-radius: 4px;
@@ -221,13 +221,16 @@ section > p {
 #contact .right {
   float: right;
   margin-right: calc(50% - 315px);
-  margin-bottom: 30px;
 }
 #contact .right > textarea{
-  margin: 10px auto;
+  margin-top: 20px;
   display: block;
   padding: 20px;
   width: 300px;
   height: 220px;
   border-radius: 4px;
+}
+#contact .login > a {
+  display: inline-block;
+  margin-top: 40px;
 }
